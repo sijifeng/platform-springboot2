@@ -6,7 +6,11 @@
 	<groupId>com.sijifeng</groupId>
 	<artifactId>platform-parent</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+    <modules>
+        <module>azkaban</module>
+		<module>hdfs-vedio</module>
+    </modules>
+    <packaging>pom</packaging>
 
 	<name>platform-parent</name>
 	<description>Demo project for Spring Boot</description>
